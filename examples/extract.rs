@@ -23,8 +23,8 @@ fn main() -> Result<()> {
 
     let start = Instant::now();
     
-    for i in 0..num_iterations {
-        let features = spectrogram.extract(&samples, 0)?;
+    for _i in 0..num_iterations {
+        let _features = spectrogram.extract(&samples, 0)?;
     }
     
     let duration = start.elapsed();
@@ -47,8 +47,8 @@ fn main() -> Result<()> {
 
     let start = Instant::now();
     
-    for i in 0..num_iterations {
-        let features = spectrogram.extract(&samples, 16000 * 10)?;
+    for _i in 0..num_iterations {
+        let _features = spectrogram.extract(&samples, 16000 * 10)?;
     }
     
     let duration = start.elapsed();
@@ -72,8 +72,8 @@ fn main() -> Result<()> {
 
     let start = Instant::now();
     
-    for i in 0..num_iterations {
-        let features = spectrogram.extract_multi(&first, &second, 0)?;
+    for _i in 0..num_iterations {
+        let _features = spectrogram.extract_multi(&first, &second, 0)?;
     }
     
     let duration = start.elapsed();
