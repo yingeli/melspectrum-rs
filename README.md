@@ -1,1 +1,1 @@
-# melspectrum-rs
+# spectrogram-rs
