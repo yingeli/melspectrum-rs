@@ -25,9 +25,6 @@ fn main() -> Result<()> {
     
     for i in 0..num_iterations {
         let features = spectrogram.extract(&samples, 0)?;
-        if i == 0 {
-            println!("Extracted features length: {}", features.len());
-        }
     }
     
     let duration = start.elapsed();
@@ -52,9 +49,6 @@ fn main() -> Result<()> {
     
     for i in 0..num_iterations {
         let features = spectrogram.extract(&samples, 16000 * 10)?;
-        if i == 0 {
-            println!("Extracted features length: {}", features.len());
-        }
     }
     
     let duration = start.elapsed();
@@ -80,9 +74,6 @@ fn main() -> Result<()> {
     
     for i in 0..num_iterations {
         let features = spectrogram.extract_multi(&first, &second, 0)?;
-        if i == 0 {
-            println!("Extracted features length: {}", features.len());
-        }
     }
     
     let duration = start.elapsed();
