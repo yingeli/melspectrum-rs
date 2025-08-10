@@ -52,7 +52,7 @@ pub(crate) mod ffi {
     }
 }
 
-pub(crate) struct LogMelSpectrogram {
+pub struct LogMelSpectrogram {
     ptr: UniquePtr<ffi::LogMelSpectrogram>,
 }
 
@@ -82,15 +82,15 @@ impl LogMelSpectrogram {
         self.ptr.hop_length()
     }
 
-    pub fn n_pre_overlap_frames(&self) -> usize {
+    pub fn n_left_overlap_frames(&self) -> usize {
         (self.n_fft() / 2 + self.hop_length() - 1) / self.hop_length()
     }
 
-    pub fn n_pre_overlap_samples(&self) -> usize {
-        self.n_pre_overlap_frames() * self.hop_length()
+    pub fn n_left_overlap_samples(&self) -> usize {
+        self.n_left_overlap_frames() * self.hop_length()
     }
 
-    pub fn n_post_overlap_samples(&self) -> usize {
+    pub fn n_right_overlap_samples(&self) -> usize {
         self.n_fft() / 2 - self.hop_length()
     }
 
@@ -100,7 +100,7 @@ impl LogMelSpectrogram {
             .extract(samples, padding)
             .map_err(|e| anyhow!("failed to extract log mel spectrogram: {}", e))?;
 
-        Ok(ptr.into())
+        Ok(ptr.into())      
     }
 
     pub fn extract_multi(&self, first: &[f32], second: &[f32], padding: usize) -> Result<Features> {
@@ -119,3 +119,27 @@ impl LogMelSpectrogram {
 
 unsafe impl Send for LogMelSpectrogram {}
 unsafe impl Sync for LogMelSpectrogram {}
+
+#[cfg(test)]
+mod tests {
+    use super::{LogMelSpectrogram, DeviceType};
+
+    #[test]
+    fn test_open() {
+        let mel_filter_path = "../../assets/mel_filter.npz";
+        let n_mels = 128;
+        let n_fft = 400;
+        let hop_length = 160;
+        let device = DeviceType::Cpu;
+
+        let spectrogram = LogMelSpectrogram::open(mel_filter_path, n_mels, n_fft, hop_length, device);
+        assert!(spectrogram.is_ok());
+
+        let spectrogram = spectrogram.unwrap();
+        assert_eq!(spectrogram.n_fft(), n_fft);
+        assert_eq!(spectrogram.hop_length(), hop_length);
+        assert_eq!(spectrogram.n_left_overlap_frames(), 2);
+        assert_eq!(spectrogram.n_left_overlap_samples(), 320);
+        assert_eq!(spectrogram.n_right_overlap_samples(), 40);
+    }
+}

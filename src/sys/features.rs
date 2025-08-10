@@ -21,7 +21,7 @@ pub(crate) mod ffi {
     }
 }
 
-pub(crate) struct Features {
+pub struct Features {
     ptr: UniquePtr<ffi::Features>,
 }
 

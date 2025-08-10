@@ -2,14 +2,19 @@ fn main() {
     println!("cargo:rerun-if-changed=src/sys");
     println!("cargo:rerun-if-changed=build.rs");
 
+    // Torch
     println!("cargo:rustc-link-search=/usr/local/lib/python3.12/dist-packages/torch/lib");
-    println!("cargo:rustc-link-lib=torch_cuda");
-    println!("cargo:rustc-link-lib=torch_cpu");
+
+    // CPU
     println!("cargo:rustc-link-lib=torch");
-    println!("cargo:rustc-link-lib=c10_cuda");
+    println!("cargo:rustc-link-lib=torch_cpu");
     println!("cargo:rustc-link-lib=c10");
 
-    println!("cargo:rustc-link-search=/usr/lib/x86_64-linux-gnu");
+    // CUDA
+    println!("cargo:rustc-link-lib=torch_cuda");
+    println!("cargo:rustc-link-lib=c10_cuda");
+
+    // println!("cargo:rustc-link-search=/usr/lib/x86_64-linux-gnu");
     println!("cargo:rustc-link-lib=z");
 
     cxx_build::bridges(["src/sys/features.rs", "src/sys/spectrogram.rs"])

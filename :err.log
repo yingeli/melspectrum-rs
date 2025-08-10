@@ -1,0 +1,1313 @@
+warning: spectrogram@0.1.0: nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/cpp_hook.h:2,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/variable.h:6,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/autograd.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/autograd.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/all.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/torch.h:3,
+warning: spectrogram@0.1.0:                  from /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/features.h:3,
+warning: spectrogram@0.1.0:                  from /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/sources/spectrogram/src/sys/features.rs.cc:1:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h: In member function 'virtual void torch::autograd::FunctionPreHook::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h:26:50: warning: unused parameter 'args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    26 |       torch::dynamo::autograd::CompiledNodeArgs& args) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h: In member function 'virtual void torch::autograd::FunctionPostHook::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h:40:50: warning: unused parameter 'args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    40 |       torch::dynamo::autograd::CompiledNodeArgs& args) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h: In member function 'virtual void torch::autograd::PostAccumulateGradHook::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h:53:50: warning: unused parameter 'args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    53 |       torch::dynamo::autograd::CompiledNodeArgs& args) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/IListRef.h:631,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/WrapDimUtils.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/TensorNames.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/NamedTensorUtils.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/variable.h:11:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/IListRef_inl.h: In static member function 'static c10::detail::IListRefConstRef<at::OptionalTensorRef> c10::detail::IListRefTagImpl<c10::IListRefTag::Boxed, at::OptionalTensorRef>::iterator_get(const c10::List<std::optional<at::Tensor> >::const_iterator&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/IListRef_inl.h:171:17: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+warning: spectrogram@0.1.0:   171 |     const auto& ivalue = (*it).get();
+warning: spectrogram@0.1.0:       |                 ^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/IListRef_inl.h:171:35: note: the temporary was destroyed at the end of the full expression '(& it)->c10::impl::ListIterator<std::optional<at::Tensor>, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator*().c10::impl::ListElementReference<std::optional<at::Tensor>, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::get()'
+warning: spectrogram@0.1.0:   171 |     const auto& ivalue = (*it).get();
+warning: spectrogram@0.1.0:       |                          ~~~~~~~~~^~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/OperatorEntry.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/Dispatcher.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/library.h:63,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/autograd_not_implemented_fallback.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/autograd.h:4:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h: In lambda function:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h:155:32: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+warning: spectrogram@0.1.0:   155 |         for (const at::Tensor& tensor : ivalue.toTensorList()) {
+warning: spectrogram@0.1.0:       |                                ^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h:155:61: note: the temporary was destroyed at the end of the full expression '__for_begin .c10::impl::ListIterator<at::Tensor, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator*().c10::impl::ListElementReference<at::Tensor, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator std::conditional_t<true, const at::Tensor&, at::Tensor>()'
+warning: spectrogram@0.1.0:   155 |         for (const at::Tensor& tensor : ivalue.toTensorList()) {
+warning: spectrogram@0.1.0:       |                                                             ^
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Context.h:14,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Functions.h:59,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/ExpandUtils.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/input_metadata.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/custom_function.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/autograd.h:5:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/CUDAHooksInterface.h: In member function 'virtual bool at::CUDAHooksInterface::isPinnedPtr(const void*) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/CUDAHooksInterface.h:89:32: warning: unused parameter 'data' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    89 |   bool isPinnedPtr(const void* data) const override {
+warning: spectrogram@0.1.0:       |                    ~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Context.h:15:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/HIPHooksInterface.h: In member function 'virtual bool at::HIPHooksInterface::isPinnedPtr(const void*) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/HIPHooksInterface.h:40:32: warning: unused parameter 'data' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    40 |   bool isPinnedPtr(const void* data) const override {
+warning: spectrogram@0.1.0:       |                    ~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/HIPHooksInterface.h: In member function 'virtual bool at::HIPHooksInterface::hasPrimaryContext(c10::DeviceIndex) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/HIPHooksInterface.h:52:38: warning: unused parameter 'device_index' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    52 |   bool hasPrimaryContext(DeviceIndex device_index) const override {
+warning: spectrogram@0.1.0:       |                          ~~~~~~~~~~~~^~~~~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Context.h:17:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/IPUHooksInterface.h: In member function 'virtual bool at::IPUHooksInterface::hasPrimaryContext(c10::DeviceIndex) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/IPUHooksInterface.h:18:38: warning: unused parameter 'device_index' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    18 |   bool hasPrimaryContext(DeviceIndex device_index) const override {
+warning: spectrogram@0.1.0:       |                          ~~~~~~~~~~~~^~~~~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Context.h:18:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/MAIAHooksInterface.h: In member function 'virtual bool at::MAIAHooksInterface::hasPrimaryContext(c10::DeviceIndex) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/MAIAHooksInterface.h:20:38: warning: unused parameter 'device_index' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    20 |   bool hasPrimaryContext(DeviceIndex device_index) const override {
+warning: spectrogram@0.1.0:       |                          ~~~~~~~~~~~~^~~~~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:11:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/utils/variadic.h: In member function 'void torch::CountTensors::operator()(const at::Tensor&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/utils/variadic.h:16:37: warning: unused parameter 'x' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    16 |   void operator()(const at::Tensor& x) {
+warning: spectrogram@0.1.0:       |                   ~~~~~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/utils/variadic.h: In member function 'void torch::CountVariables::operator()(const torch::autograd::Variable&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/utils/variadic.h:34:45: warning: unused parameter 'x' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    34 |   void operator()(const autograd::Variable& x) {
+warning: spectrogram@0.1.0:       |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h: In member function 'uint32_t torch::autograd::Node::add_input_metadata(undefined_input)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:218:47: warning: unused parameter 'u' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   218 |   uint32_t add_input_metadata(undefined_input u) noexcept {
+warning: spectrogram@0.1.0:       |                               ~~~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h: In member function 'virtual void torch::autograd::Node::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:596:48: warning: unused parameter 'args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   596 |   virtual void compiled_args(CompiledNodeArgs& args) const {
+warning: spectrogram@0.1.0:       |                              ~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h: In member function 'virtual torch::autograd::variable_list torch::autograd::Node::apply_with_saved(const torch::autograd::variable_list&, torch::dynamo::autograd::SwapSavedVariables&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:605:28: warning: unused parameter 'inputs' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   605 |       const variable_list& inputs,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:606:27: warning: unused parameter 'saved' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   606 |       SwapSavedVariables& saved) {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~^~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/custom_function.h:10:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual std::string torch::dynamo::autograd::PyCompilerInterface::bind_function(PyObject*, const std::string&, torch::autograd::functional_apply_t, std::vector<c10::Type::SingletonOrSharedTypePtr<c10::Type> >, bool, bool) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:35:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    35 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:36:26: warning: unused parameter 'fn_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    36 |       const std::string& fn_name,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:38:26: warning: unused parameter 'fn' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    38 |       functional_apply_t fn,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:40:32: warning: unused parameter 'packed_args_schema' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    40 |       std::vector<at::TypePtr> packed_args_schema,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:41:12: warning: unused parameter 'is_custom_function' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    41 |       bool is_custom_function = false,
+warning: spectrogram@0.1.0:       |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:42:12: warning: unused parameter 'is_traceable' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    42 |       bool is_traceable = true) const {
+warning: spectrogram@0.1.0:       |       ~~~~~^~~~~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual torch::autograd::variable_list torch::dynamo::autograd::PyCompilerInterface::call_function(PyObject*, const char*, const std::string&, const torch::autograd::variable_list&, const torch::autograd::ivalue_list&, const c10::IValue&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:49:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    49 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:50:19: warning: unused parameter 'method_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    50 |       const char* method_name,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:51:26: warning: unused parameter 'fn_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    51 |       const std::string& fn_name,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:52:28: warning: unused parameter 'inputs' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    52 |       const variable_list& inputs,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:53:26: warning: unused parameter 'packed_args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    53 |       const ivalue_list& packed_args,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:54:26: warning: unused parameter 'output_metadata' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    54 |       const c10::IValue& output_metadata) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual torch::autograd::variable_list torch::dynamo::autograd::PyCompilerInterface::call_copy_slices_prologue(PyObject*, const torch::autograd::variable_list&, const at::TensorGeometry&, const at::TensorGeometry&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:58:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    58 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:59:28: warning: unused parameter 'inputs' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       const variable_list& inputs,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:60:33: warning: unused parameter 'base' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    60 |       const at::TensorGeometry& base,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:61:33: warning: unused parameter 'view' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    61 |       const at::TensorGeometry& view) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual torch::autograd::variable_list torch::dynamo::autograd::PyCompilerInterface::call_copy_slices_epilogue(PyObject*, const std::vector<bool>&, const at::Tensor&, const torch::autograd::variable_list&, const at::Tensor&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:65:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    65 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:66:32: warning: unused parameter 'needs_input_grad' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    66 |       const std::vector<bool>& needs_input_grad,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:67:25: warning: unused parameter 'result' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    67 |       const at::Tensor& result,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:68:28: warning: unused parameter 'res' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    68 |       const variable_list& res,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~^~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:69:25: warning: unused parameter 'grad_slice' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    69 |       const at::Tensor& grad_slice) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual at::Tensor torch::dynamo::autograd::PyCompilerInterface::call_unpack(PyObject*, std::optional<long unsigned int>, size_t) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:73:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    73 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:74:29: warning: unused parameter 'hook_id' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    74 |       std::optional<size_t> hook_id,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:75:14: warning: unused parameter 'hook_input_id' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    75 |       size_t hook_input_id) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~^~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual void torch::dynamo::autograd::PyCompilerInterface::call_accumulate_grad(PyObject*, const at::Tensor&, const at::Tensor&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:79:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    79 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:80:25: warning: unused parameter 'variable' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    80 |       const at::Tensor& variable,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:81:25: warning: unused parameter 'grad' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    81 |       const at::Tensor& grad) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/ir/ir.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/function_impl.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/method.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/object.h:5,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/serialize/input-archive.h:5,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/serialize/archive.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data/samplers/serialize.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data/samplers.h:8,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data/datasets/chunk.h:6,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data/datasets.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/all.h:9:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/operator.h: In lambda function:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/operator.h:152:39: warning: unused parameter 'op' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   152 |             [](const JitOnlyOperator& op) {
+warning: spectrogram@0.1.0:       |                ~~~~~~~~~~~~~~~~~~~~~~~^~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/operator.h: In lambda function:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/operator.h:191:39: warning: unused parameter 'op' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   191 |             [](const JitOnlyOperator& op) {
+warning: spectrogram@0.1.0:       |                ~~~~~~~~~~~~~~~~~~~~~~~^~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/graph_executor.h:9,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/function_impl.h:5:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/interpreter.h: In constructor 'torch::jit::InterpreterContinuation::InterpreterContinuation(torch::jit::InterpreterState, torch::jit::Stack, int64_t, std::optional<at::ThreadLocalState>)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/interpreter.h:127:15: warning: unused parameter 'dist_autograd_context_id' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   127 |       int64_t dist_autograd_context_id = 0,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:13:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/compilation_unit.h: In member function 'void torch::jit::CompilationUnit::set_optimized(bool)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/compilation_unit.h:73:27: warning: unused parameter 'o' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    73 |   void set_optimized(bool o) {
+warning: spectrogram@0.1.0:       |                      ~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In member function 'void torch::jit::Module::set_optimized(bool)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:102:27: warning: unused parameter 'o' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   102 |   void set_optimized(bool o) {
+warning: spectrogram@0.1.0:       |                      ~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static torch::jit::detail::ModulePolicy::value_type torch::jit::detail::ModulePolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:585:46: warning: unused parameter 'cursors' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   585 |       const std::vector<detail::SlotCursor>& cursors,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static bool torch::jit::detail::ModulePolicy::valid(const c10::ClassTypePtr&, size_t, const c10::IValue&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:591:70: warning: unused parameter 'v' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   591 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                                                        ~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static torch::jit::detail::ParameterPolicy::value_type torch::jit::detail::ParameterPolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:602:46: warning: unused parameter 'cursors' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   602 |       const std::vector<detail::SlotCursor>& cursors,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static torch::jit::detail::BufferPolicy::value_type torch::jit::detail::BufferPolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:615:46: warning: unused parameter 'cursors' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   615 |       const std::vector<detail::SlotCursor>& cursors,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static bool torch::jit::detail::BufferPolicy::valid(const c10::ClassTypePtr&, size_t, const c10::IValue&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:619:70: warning: unused parameter 'v' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   619 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                                                        ~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static torch::jit::detail::AttributePolicy::value_type torch::jit::detail::AttributePolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:629:46: warning: unused parameter 'cursors' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   629 |       const std::vector<detail::SlotCursor>& cursors,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static bool torch::jit::detail::AttributePolicy::valid(const c10::ClassTypePtr&, size_t, const c10::IValue&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:633:41: warning: unused parameter 'typ' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   633 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                     ~~~~~~~~~~~~~~~~~~~~^~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:633:53: warning: unused parameter 'i' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   633 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                                              ~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:633:70: warning: unused parameter 'v' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   633 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                                                        ~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/cloneable.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/all.h:15:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/module.h: In member function 'virtual std::vector<torch::nn::AnyValue> torch::nn::Module::_forward_populate_default_args(std::vector<torch::nn::AnyValue>&&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/module.h:541:31: warning: unused parameter 'arguments' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   541 |       std::vector<AnyValue>&& arguments) {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/all.h:10:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::L1LossOptions::L1LossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:20:50: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    20 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(L1LossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::L1LossOptions::L1LossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:20:50: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    20 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(L1LossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::L1LossOptions::L1LossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:20:50: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    20 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(L1LossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:59:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:97:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG4'
+warning: spectrogram@0.1.0:    97 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kBatchMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:59:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:98:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG4'
+warning: spectrogram@0.1.0:    98 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:59:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:99:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG4'
+warning: spectrogram@0.1.0:    99 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:59:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:100:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG4'
+warning: spectrogram@0.1.0:   100 |   OPTIONS_NAME(torch::enumtype::TYPE4 ARG_NAME) : ARG_NAME##_(torch::TYPE4) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MSELossOptions::MSELossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:100:51: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   100 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(MSELossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MSELossOptions::MSELossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:100:51: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   100 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(MSELossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MSELossOptions::MSELossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:100:51: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   100 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(MSELossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MultiLabelMarginLossOptions::MultiLabelMarginLossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:284:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   284 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MultiLabelMarginLossOptions::MultiLabelMarginLossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:284:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   284 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MultiLabelMarginLossOptions::MultiLabelMarginLossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:284:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   284 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SoftMarginLossOptions::SoftMarginLossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:325:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   325 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SoftMarginLossOptions::SoftMarginLossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:325:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   325 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SoftMarginLossOptions::SoftMarginLossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:325:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   325 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SmoothL1LossOptions::SmoothL1LossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:537:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   537 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SmoothL1LossOptions::SmoothL1LossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:537:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   537 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SmoothL1LossOptions::SmoothL1LossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:537:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   537 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::HuberLossOptions::HuberLossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:581:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   581 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::HuberLossOptions::HuberLossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:581:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   581 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::HuberLossOptions::HuberLossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:581:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   581 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/features.h: In member function 'std::unique_ptr<Features> Features::pad(size_t) const':
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/features.h:38:65: warning: narrowing conversion of '(size_t)padding' from 'size_t' {aka 'long unsigned int'} to 'long int' [-Wnarrowing]
+warning: spectrogram@0.1.0:    38 |                 torch::nn::functional::PadFuncOptions({0, 0, 0, padding}).mode(torch::kConstant).value(-1.5));
+warning: spectrogram@0.1.0:       |                                                                 ^~~~~~~
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/features.h:38:65: warning: narrowing conversion of 'padding' from 'const size_t' {aka 'const long unsigned int'} to 'long int' [-Wnarrowing]
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional.h:6,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn.h:4:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h: In instantiation of 'at::Tensor torch::nn::functional::detail::_dropoutNd_helper(at::Tensor, double, bool, bool, const char*) [with long int unbatched_dim = 3; long int batched_dim = 4]':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:89:33:   required from here
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:55:17: warning: unused parameter 'fn_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    55 |     const char* fn_name) {
+warning: spectrogram@0.1.0:       |     ~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h: In instantiation of 'at::Tensor torch::nn::functional::detail::_dropoutNd_helper(at::Tensor, double, bool, bool, const char*) [with long int unbatched_dim = 4; long int batched_dim = 5]':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:121:33:   required from here
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:55:17: warning: unused parameter 'fn_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In instantiation of 'static std::vector<T> torch::dynamo::autograd::IValuePacker<std::vector<T> >::unpack(const c10::IValue&) [with T = std::__cxx11::basic_string<char>]':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:1512:35:   required from 'T torch::dynamo::autograd::PackedArgs::unpack() [with T = std::vector<std::__cxx11::basic_string<char> >]'
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:1530:49:   required from here
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:1383:28: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+warning: spectrogram@0.1.0:  1383 |     for (const at::IValue& elt : lst) {
+warning: spectrogram@0.1.0:       |                            ^~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:1383:5: note: the temporary was destroyed at the end of the full expression '__for_begin .c10::impl::ListIterator<c10::IValue, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator*().c10::impl::ListElementReference<c10::IValue, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator std::conditional_t<true, const c10::IValue&, c10::IValue>()'
+warning: spectrogram@0.1.0:  1383 |     for (const at::IValue& elt : lst) {
+warning: spectrogram@0.1.0:       |     ^~~
+warning: spectrogram@0.1.0: nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/cpp_hook.h:2,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/variable.h:6,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/autograd.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/autograd.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/all.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/torch.h:3,
+warning: spectrogram@0.1.0:                  from /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/features.h:3,
+warning: spectrogram@0.1.0:                  from /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/spectrogram.h:3,
+warning: spectrogram@0.1.0:                  from /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/sources/spectrogram/src/sys/spectrogram.rs.cc:1:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h: In member function 'virtual void torch::autograd::FunctionPreHook::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h:26:50: warning: unused parameter 'args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    26 |       torch::dynamo::autograd::CompiledNodeArgs& args) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h: In member function 'virtual void torch::autograd::FunctionPostHook::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h:40:50: warning: unused parameter 'args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    40 |       torch::dynamo::autograd::CompiledNodeArgs& args) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h: In member function 'virtual void torch::autograd::PostAccumulateGradHook::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h:53:50: warning: unused parameter 'args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    53 |       torch::dynamo::autograd::CompiledNodeArgs& args) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/IListRef.h:631,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/WrapDimUtils.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/TensorNames.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/NamedTensorUtils.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/variable.h:11:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/IListRef_inl.h: In static member function 'static c10::detail::IListRefConstRef<at::OptionalTensorRef> c10::detail::IListRefTagImpl<c10::IListRefTag::Boxed, at::OptionalTensorRef>::iterator_get(const c10::List<std::optional<at::Tensor> >::const_iterator&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/IListRef_inl.h:171:17: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+warning: spectrogram@0.1.0:   171 |     const auto& ivalue = (*it).get();
+warning: spectrogram@0.1.0:       |                 ^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/IListRef_inl.h:171:35: note: the temporary was destroyed at the end of the full expression '(& it)->c10::impl::ListIterator<std::optional<at::Tensor>, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator*().c10::impl::ListElementReference<std::optional<at::Tensor>, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::get()'
+warning: spectrogram@0.1.0:   171 |     const auto& ivalue = (*it).get();
+warning: spectrogram@0.1.0:       |                          ~~~~~~~~~^~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/OperatorEntry.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/Dispatcher.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/library.h:63,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/autograd_not_implemented_fallback.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/autograd.h:4:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h: In lambda function:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h:155:32: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+warning: spectrogram@0.1.0:   155 |         for (const at::Tensor& tensor : ivalue.toTensorList()) {
+warning: spectrogram@0.1.0:       |                                ^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h:155:61: note: the temporary was destroyed at the end of the full expression '__for_begin .c10::impl::ListIterator<at::Tensor, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator*().c10::impl::ListElementReference<at::Tensor, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator std::conditional_t<true, const at::Tensor&, at::Tensor>()'
+warning: spectrogram@0.1.0:   155 |         for (const at::Tensor& tensor : ivalue.toTensorList()) {
+warning: spectrogram@0.1.0:       |                                                             ^
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Context.h:14,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Functions.h:59,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/ExpandUtils.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/input_metadata.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/custom_function.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/autograd.h:5:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/CUDAHooksInterface.h: In member function 'virtual bool at::CUDAHooksInterface::isPinnedPtr(const void*) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/CUDAHooksInterface.h:89:32: warning: unused parameter 'data' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    89 |   bool isPinnedPtr(const void* data) const override {
+warning: spectrogram@0.1.0:       |                    ~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Context.h:15:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/HIPHooksInterface.h: In member function 'virtual bool at::HIPHooksInterface::isPinnedPtr(const void*) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/HIPHooksInterface.h:40:32: warning: unused parameter 'data' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    40 |   bool isPinnedPtr(const void* data) const override {
+warning: spectrogram@0.1.0:       |                    ~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/HIPHooksInterface.h: In member function 'virtual bool at::HIPHooksInterface::hasPrimaryContext(c10::DeviceIndex) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/HIPHooksInterface.h:52:38: warning: unused parameter 'device_index' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    52 |   bool hasPrimaryContext(DeviceIndex device_index) const override {
+warning: spectrogram@0.1.0:       |                          ~~~~~~~~~~~~^~~~~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Context.h:17:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/IPUHooksInterface.h: In member function 'virtual bool at::IPUHooksInterface::hasPrimaryContext(c10::DeviceIndex) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/IPUHooksInterface.h:18:38: warning: unused parameter 'device_index' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    18 |   bool hasPrimaryContext(DeviceIndex device_index) const override {
+warning: spectrogram@0.1.0:       |                          ~~~~~~~~~~~~^~~~~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Context.h:18:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/MAIAHooksInterface.h: In member function 'virtual bool at::MAIAHooksInterface::hasPrimaryContext(c10::DeviceIndex) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/MAIAHooksInterface.h:20:38: warning: unused parameter 'device_index' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    20 |   bool hasPrimaryContext(DeviceIndex device_index) const override {
+warning: spectrogram@0.1.0:       |                          ~~~~~~~~~~~~^~~~~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:11:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/utils/variadic.h: In member function 'void torch::CountTensors::operator()(const at::Tensor&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/utils/variadic.h:16:37: warning: unused parameter 'x' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    16 |   void operator()(const at::Tensor& x) {
+warning: spectrogram@0.1.0:       |                   ~~~~~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/utils/variadic.h: In member function 'void torch::CountVariables::operator()(const torch::autograd::Variable&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/utils/variadic.h:34:45: warning: unused parameter 'x' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    34 |   void operator()(const autograd::Variable& x) {
+warning: spectrogram@0.1.0:       |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h: In member function 'uint32_t torch::autograd::Node::add_input_metadata(undefined_input)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:218:47: warning: unused parameter 'u' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   218 |   uint32_t add_input_metadata(undefined_input u) noexcept {
+warning: spectrogram@0.1.0:       |                               ~~~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h: In member function 'virtual void torch::autograd::Node::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:596:48: warning: unused parameter 'args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   596 |   virtual void compiled_args(CompiledNodeArgs& args) const {
+warning: spectrogram@0.1.0:       |                              ~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h: In member function 'virtual torch::autograd::variable_list torch::autograd::Node::apply_with_saved(const torch::autograd::variable_list&, torch::dynamo::autograd::SwapSavedVariables&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:605:28: warning: unused parameter 'inputs' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   605 |       const variable_list& inputs,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:606:27: warning: unused parameter 'saved' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   606 |       SwapSavedVariables& saved) {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~^~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/custom_function.h:10:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual std::string torch::dynamo::autograd::PyCompilerInterface::bind_function(PyObject*, const std::string&, torch::autograd::functional_apply_t, std::vector<c10::Type::SingletonOrSharedTypePtr<c10::Type> >, bool, bool) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:35:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    35 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:36:26: warning: unused parameter 'fn_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    36 |       const std::string& fn_name,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:38:26: warning: unused parameter 'fn' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    38 |       functional_apply_t fn,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:40:32: warning: unused parameter 'packed_args_schema' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    40 |       std::vector<at::TypePtr> packed_args_schema,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:41:12: warning: unused parameter 'is_custom_function' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    41 |       bool is_custom_function = false,
+warning: spectrogram@0.1.0:       |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:42:12: warning: unused parameter 'is_traceable' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    42 |       bool is_traceable = true) const {
+warning: spectrogram@0.1.0:       |       ~~~~~^~~~~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual torch::autograd::variable_list torch::dynamo::autograd::PyCompilerInterface::call_function(PyObject*, const char*, const std::string&, const torch::autograd::variable_list&, const torch::autograd::ivalue_list&, const c10::IValue&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:49:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    49 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:50:19: warning: unused parameter 'method_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    50 |       const char* method_name,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:51:26: warning: unused parameter 'fn_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    51 |       const std::string& fn_name,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:52:28: warning: unused parameter 'inputs' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    52 |       const variable_list& inputs,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:53:26: warning: unused parameter 'packed_args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    53 |       const ivalue_list& packed_args,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:54:26: warning: unused parameter 'output_metadata' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    54 |       const c10::IValue& output_metadata) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual torch::autograd::variable_list torch::dynamo::autograd::PyCompilerInterface::call_copy_slices_prologue(PyObject*, const torch::autograd::variable_list&, const at::TensorGeometry&, const at::TensorGeometry&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:58:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    58 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:59:28: warning: unused parameter 'inputs' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       const variable_list& inputs,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:60:33: warning: unused parameter 'base' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    60 |       const at::TensorGeometry& base,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:61:33: warning: unused parameter 'view' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    61 |       const at::TensorGeometry& view) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual torch::autograd::variable_list torch::dynamo::autograd::PyCompilerInterface::call_copy_slices_epilogue(PyObject*, const std::vector<bool>&, const at::Tensor&, const torch::autograd::variable_list&, const at::Tensor&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:65:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    65 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:66:32: warning: unused parameter 'needs_input_grad' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    66 |       const std::vector<bool>& needs_input_grad,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:67:25: warning: unused parameter 'result' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    67 |       const at::Tensor& result,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:68:28: warning: unused parameter 'res' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    68 |       const variable_list& res,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~^~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:69:25: warning: unused parameter 'grad_slice' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    69 |       const at::Tensor& grad_slice) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual at::Tensor torch::dynamo::autograd::PyCompilerInterface::call_unpack(PyObject*, std::optional<long unsigned int>, size_t) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:73:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    73 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:74:29: warning: unused parameter 'hook_id' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    74 |       std::optional<size_t> hook_id,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:75:14: warning: unused parameter 'hook_input_id' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    75 |       size_t hook_input_id) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~^~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual void torch::dynamo::autograd::PyCompilerInterface::call_accumulate_grad(PyObject*, const at::Tensor&, const at::Tensor&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:79:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    79 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:80:25: warning: unused parameter 'variable' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    80 |       const at::Tensor& variable,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:81:25: warning: unused parameter 'grad' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    81 |       const at::Tensor& grad) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/ir/ir.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/function_impl.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/method.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/object.h:5,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/serialize/input-archive.h:5,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/serialize/archive.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data/samplers/serialize.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data/samplers.h:8,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data/datasets/chunk.h:6,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data/datasets.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/all.h:9:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/operator.h: In lambda function:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/operator.h:152:39: warning: unused parameter 'op' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   152 |             [](const JitOnlyOperator& op) {
+warning: spectrogram@0.1.0:       |                ~~~~~~~~~~~~~~~~~~~~~~~^~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/operator.h: In lambda function:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/operator.h:191:39: warning: unused parameter 'op' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   191 |             [](const JitOnlyOperator& op) {
+warning: spectrogram@0.1.0:       |                ~~~~~~~~~~~~~~~~~~~~~~~^~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/graph_executor.h:9,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/function_impl.h:5:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/interpreter.h: In constructor 'torch::jit::InterpreterContinuation::InterpreterContinuation(torch::jit::InterpreterState, torch::jit::Stack, int64_t, std::optional<at::ThreadLocalState>)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/interpreter.h:127:15: warning: unused parameter 'dist_autograd_context_id' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   127 |       int64_t dist_autograd_context_id = 0,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:13:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/compilation_unit.h: In member function 'void torch::jit::CompilationUnit::set_optimized(bool)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/compilation_unit.h:73:27: warning: unused parameter 'o' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    73 |   void set_optimized(bool o) {
+warning: spectrogram@0.1.0:       |                      ~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In member function 'void torch::jit::Module::set_optimized(bool)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:102:27: warning: unused parameter 'o' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   102 |   void set_optimized(bool o) {
+warning: spectrogram@0.1.0:       |                      ~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static torch::jit::detail::ModulePolicy::value_type torch::jit::detail::ModulePolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:585:46: warning: unused parameter 'cursors' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   585 |       const std::vector<detail::SlotCursor>& cursors,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static bool torch::jit::detail::ModulePolicy::valid(const c10::ClassTypePtr&, size_t, const c10::IValue&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:591:70: warning: unused parameter 'v' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   591 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                                                        ~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static torch::jit::detail::ParameterPolicy::value_type torch::jit::detail::ParameterPolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:602:46: warning: unused parameter 'cursors' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   602 |       const std::vector<detail::SlotCursor>& cursors,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static torch::jit::detail::BufferPolicy::value_type torch::jit::detail::BufferPolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:615:46: warning: unused parameter 'cursors' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   615 |       const std::vector<detail::SlotCursor>& cursors,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static bool torch::jit::detail::BufferPolicy::valid(const c10::ClassTypePtr&, size_t, const c10::IValue&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:619:70: warning: unused parameter 'v' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   619 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                                                        ~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static torch::jit::detail::AttributePolicy::value_type torch::jit::detail::AttributePolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:629:46: warning: unused parameter 'cursors' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   629 |       const std::vector<detail::SlotCursor>& cursors,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static bool torch::jit::detail::AttributePolicy::valid(const c10::ClassTypePtr&, size_t, const c10::IValue&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:633:41: warning: unused parameter 'typ' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   633 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                     ~~~~~~~~~~~~~~~~~~~~^~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:633:53: warning: unused parameter 'i' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   633 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                                              ~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:633:70: warning: unused parameter 'v' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   633 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                                                        ~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/cloneable.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/all.h:15:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/module.h: In member function 'virtual std::vector<torch::nn::AnyValue> torch::nn::Module::_forward_populate_default_args(std::vector<torch::nn::AnyValue>&&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/module.h:541:31: warning: unused parameter 'arguments' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   541 |       std::vector<AnyValue>&& arguments) {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/all.h:10:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::L1LossOptions::L1LossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:20:50: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    20 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(L1LossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::L1LossOptions::L1LossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:20:50: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    20 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(L1LossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::L1LossOptions::L1LossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:20:50: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    20 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(L1LossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:59:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:97:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG4'
+warning: spectrogram@0.1.0:    97 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kBatchMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:59:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:98:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG4'
+warning: spectrogram@0.1.0:    98 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:59:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:99:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG4'
+warning: spectrogram@0.1.0:    99 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:59:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:100:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG4'
+warning: spectrogram@0.1.0:   100 |   OPTIONS_NAME(torch::enumtype::TYPE4 ARG_NAME) : ARG_NAME##_(torch::TYPE4) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MSELossOptions::MSELossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:100:51: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   100 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(MSELossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MSELossOptions::MSELossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:100:51: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   100 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(MSELossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MSELossOptions::MSELossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:100:51: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   100 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(MSELossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MultiLabelMarginLossOptions::MultiLabelMarginLossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:284:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   284 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MultiLabelMarginLossOptions::MultiLabelMarginLossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:284:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   284 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MultiLabelMarginLossOptions::MultiLabelMarginLossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:284:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   284 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SoftMarginLossOptions::SoftMarginLossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:325:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   325 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SoftMarginLossOptions::SoftMarginLossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:325:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   325 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SoftMarginLossOptions::SoftMarginLossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:325:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   325 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SmoothL1LossOptions::SmoothL1LossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:537:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   537 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SmoothL1LossOptions::SmoothL1LossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:537:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   537 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SmoothL1LossOptions::SmoothL1LossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:537:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   537 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::HuberLossOptions::HuberLossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:581:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   581 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::HuberLossOptions::HuberLossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:581:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   581 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::HuberLossOptions::HuberLossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:581:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   581 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/features.h: In member function 'std::unique_ptr<Features> Features::pad(size_t) const':
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/features.h:38:65: warning: narrowing conversion of '(size_t)padding' from 'size_t' {aka 'long unsigned int'} to 'long int' [-Wnarrowing]
+warning: spectrogram@0.1.0:    38 |                 torch::nn::functional::PadFuncOptions({0, 0, 0, padding}).mode(torch::kConstant).value(-1.5));
+warning: spectrogram@0.1.0:       |                                                                 ^~~~~~~
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/features.h:38:65: warning: narrowing conversion of 'padding' from 'const size_t' {aka 'const long unsigned int'} to 'long int' [-Wnarrowing]
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/spectrogram.h: In member function 'std::unique_ptr<Features> LogMelSpectrogram::empty() const':
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/spectrogram.h:52:50: warning: narrowing conversion of '((const LogMelSpectrogram*)this)->LogMelSpectrogram::n_mels()' from 'size_t' {aka 'long unsigned int'} to 'long int' [-Wnarrowing]
+warning: spectrogram@0.1.0:    52 |             auto tensor = torch::empty({0, n_mels()}, torch::TensorOptions().dtype(torch::kFloat16).device(filters_.device()));
+warning: spectrogram@0.1.0:       |                                            ~~~~~~^~
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/spectrogram.h:52:50: warning: narrowing conversion of '((const LogMelSpectrogram*)this)->LogMelSpectrogram::n_mels()' from 'size_t' {aka 'long unsigned int'} to 'long int' [-Wnarrowing]
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional.h:6,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn.h:4:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h: In instantiation of 'at::Tensor torch::nn::functional::detail::_dropoutNd_helper(at::Tensor, double, bool, bool, const char*) [with long int unbatched_dim = 3; long int batched_dim = 4]':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:89:33:   required from here
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:55:17: warning: unused parameter 'fn_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    55 |     const char* fn_name) {
+warning: spectrogram@0.1.0:       |     ~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h: In instantiation of 'at::Tensor torch::nn::functional::detail::_dropoutNd_helper(at::Tensor, double, bool, bool, const char*) [with long int unbatched_dim = 4; long int batched_dim = 5]':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:121:33:   required from here
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:55:17: warning: unused parameter 'fn_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In instantiation of 'static std::vector<T> torch::dynamo::autograd::IValuePacker<std::vector<T> >::unpack(const c10::IValue&) [with T = std::__cxx11::basic_string<char>]':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:1512:35:   required from 'T torch::dynamo::autograd::PackedArgs::unpack() [with T = std::vector<std::__cxx11::basic_string<char> >]'
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:1530:49:   required from here
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:1383:28: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+warning: spectrogram@0.1.0:  1383 |     for (const at::IValue& elt : lst) {
+warning: spectrogram@0.1.0:       |                            ^~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:1383:5: note: the temporary was destroyed at the end of the full expression '__for_begin .c10::impl::ListIterator<c10::IValue, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator*().c10::impl::ListElementReference<c10::IValue, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator std::conditional_t<true, const c10::IValue&, c10::IValue>()'
+warning: spectrogram@0.1.0:  1383 |     for (const at::IValue& elt : lst) {
+warning: spectrogram@0.1.0:       |     ^~~
+warning: spectrogram@0.1.0: nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+warning: spectrogram@0.1.0: 3rdparty/cnpy/cnpy.cpp: In function 'void cnpy::parse_npy_header(unsigned char*, size_t&, std::vector<long unsigned int>&, bool&)':
+warning: spectrogram@0.1.0: 3rdparty/cnpy/cnpy.cpp:64:13: warning: unused variable 'major_version' [-Wunused-variable]
+warning: spectrogram@0.1.0:    64 |     uint8_t major_version = *reinterpret_cast<uint8_t*>(buffer+6);
+warning: spectrogram@0.1.0:       |             ^~~~~~~~~~~~~
+warning: spectrogram@0.1.0: 3rdparty/cnpy/cnpy.cpp:65:13: warning: unused variable 'minor_version' [-Wunused-variable]
+warning: spectrogram@0.1.0:    65 |     uint8_t minor_version = *reinterpret_cast<uint8_t*>(buffer+7);
+warning: spectrogram@0.1.0:       |             ^~~~~~~~~~~~~
+warning: spectrogram@0.1.0: 3rdparty/cnpy/cnpy.cpp: In function 'cnpy::NpyArray load_the_npz_array(FILE*, uint32_t, uint32_t)':
+warning: spectrogram@0.1.0: 3rdparty/cnpy/cnpy.cpp:199:9: warning: variable 'err' set but not used [-Wunused-but-set-variable]
+warning: spectrogram@0.1.0:   199 |     int err;
+warning: spectrogram@0.1.0:       |         ^~~
+warning: spectrogram@0.1.0: nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/cpp_hook.h:2,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/variable.h:6,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/autograd.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/autograd.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/all.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/torch.h:3,
+warning: spectrogram@0.1.0:                  from /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/features.h:3,
+warning: spectrogram@0.1.0:                  from /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/spectrogram.h:3,
+warning: spectrogram@0.1.0:                  from /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/include/spectrogram/src/sys/spectrogram.rs.h:2,
+warning: spectrogram@0.1.0:                  from src/sys/spectrogram.cpp:1:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h: In member function 'virtual void torch::autograd::FunctionPreHook::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h:26:50: warning: unused parameter 'args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    26 |       torch::dynamo::autograd::CompiledNodeArgs& args) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h: In member function 'virtual void torch::autograd::FunctionPostHook::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h:40:50: warning: unused parameter 'args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    40 |       torch::dynamo::autograd::CompiledNodeArgs& args) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h: In member function 'virtual void torch::autograd::PostAccumulateGradHook::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function_hook.h:53:50: warning: unused parameter 'args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    53 |       torch::dynamo::autograd::CompiledNodeArgs& args) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/IListRef.h:631,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/WrapDimUtils.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/TensorNames.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/NamedTensorUtils.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/variable.h:11:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/IListRef_inl.h: In static member function 'static c10::detail::IListRefConstRef<at::OptionalTensorRef> c10::detail::IListRefTagImpl<c10::IListRefTag::Boxed, at::OptionalTensorRef>::iterator_get(const c10::List<std::optional<at::Tensor> >::const_iterator&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/IListRef_inl.h:171:17: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+warning: spectrogram@0.1.0:   171 |     const auto& ivalue = (*it).get();
+warning: spectrogram@0.1.0:       |                 ^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/IListRef_inl.h:171:35: note: the temporary was destroyed at the end of the full expression '(& it)->c10::impl::ListIterator<std::optional<at::Tensor>, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator*().c10::impl::ListElementReference<std::optional<at::Tensor>, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::get()'
+warning: spectrogram@0.1.0:   171 |     const auto& ivalue = (*it).get();
+warning: spectrogram@0.1.0:       |                          ~~~~~~~~~^~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/OperatorEntry.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/Dispatcher.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/library.h:63,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/autograd_not_implemented_fallback.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/autograd.h:4:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h: In lambda function:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h:155:32: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+warning: spectrogram@0.1.0:   155 |         for (const at::Tensor& tensor : ivalue.toTensorList()) {
+warning: spectrogram@0.1.0:       |                                ^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/core/dispatch/DispatchKeyExtractor.h:155:61: note: the temporary was destroyed at the end of the full expression '__for_begin .c10::impl::ListIterator<at::Tensor, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator*().c10::impl::ListElementReference<at::Tensor, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator std::conditional_t<true, const at::Tensor&, at::Tensor>()'
+warning: spectrogram@0.1.0:   155 |         for (const at::Tensor& tensor : ivalue.toTensorList()) {
+warning: spectrogram@0.1.0:       |                                                             ^
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Context.h:14,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Functions.h:59,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/ExpandUtils.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/input_metadata.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/custom_function.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/autograd.h:5:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/CUDAHooksInterface.h: In member function 'virtual bool at::CUDAHooksInterface::isPinnedPtr(const void*) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/CUDAHooksInterface.h:89:32: warning: unused parameter 'data' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    89 |   bool isPinnedPtr(const void* data) const override {
+warning: spectrogram@0.1.0:       |                    ~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Context.h:15:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/HIPHooksInterface.h: In member function 'virtual bool at::HIPHooksInterface::isPinnedPtr(const void*) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/HIPHooksInterface.h:40:32: warning: unused parameter 'data' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    40 |   bool isPinnedPtr(const void* data) const override {
+warning: spectrogram@0.1.0:       |                    ~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/HIPHooksInterface.h: In member function 'virtual bool at::HIPHooksInterface::hasPrimaryContext(c10::DeviceIndex) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/HIPHooksInterface.h:52:38: warning: unused parameter 'device_index' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    52 |   bool hasPrimaryContext(DeviceIndex device_index) const override {
+warning: spectrogram@0.1.0:       |                          ~~~~~~~~~~~~^~~~~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Context.h:17:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/IPUHooksInterface.h: In member function 'virtual bool at::IPUHooksInterface::hasPrimaryContext(c10::DeviceIndex) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/IPUHooksInterface.h:18:38: warning: unused parameter 'device_index' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    18 |   bool hasPrimaryContext(DeviceIndex device_index) const override {
+warning: spectrogram@0.1.0:       |                          ~~~~~~~~~~~~^~~~~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/ATen/Context.h:18:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/MAIAHooksInterface.h: In member function 'virtual bool at::MAIAHooksInterface::hasPrimaryContext(c10::DeviceIndex) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/ATen/detail/MAIAHooksInterface.h:20:38: warning: unused parameter 'device_index' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    20 |   bool hasPrimaryContext(DeviceIndex device_index) const override {
+warning: spectrogram@0.1.0:       |                          ~~~~~~~~~~~~^~~~~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:11:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/utils/variadic.h: In member function 'void torch::CountTensors::operator()(const at::Tensor&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/utils/variadic.h:16:37: warning: unused parameter 'x' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    16 |   void operator()(const at::Tensor& x) {
+warning: spectrogram@0.1.0:       |                   ~~~~~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/utils/variadic.h: In member function 'void torch::CountVariables::operator()(const torch::autograd::Variable&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/utils/variadic.h:34:45: warning: unused parameter 'x' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    34 |   void operator()(const autograd::Variable& x) {
+warning: spectrogram@0.1.0:       |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h: In member function 'uint32_t torch::autograd::Node::add_input_metadata(undefined_input)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:218:47: warning: unused parameter 'u' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   218 |   uint32_t add_input_metadata(undefined_input u) noexcept {
+warning: spectrogram@0.1.0:       |                               ~~~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h: In member function 'virtual void torch::autograd::Node::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:596:48: warning: unused parameter 'args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   596 |   virtual void compiled_args(CompiledNodeArgs& args) const {
+warning: spectrogram@0.1.0:       |                              ~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h: In member function 'virtual torch::autograd::variable_list torch::autograd::Node::apply_with_saved(const torch::autograd::variable_list&, torch::dynamo::autograd::SwapSavedVariables&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:605:28: warning: unused parameter 'inputs' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   605 |       const variable_list& inputs,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/function.h:606:27: warning: unused parameter 'saved' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   606 |       SwapSavedVariables& saved) {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~^~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/autograd/custom_function.h:10:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual std::string torch::dynamo::autograd::PyCompilerInterface::bind_function(PyObject*, const std::string&, torch::autograd::functional_apply_t, std::vector<c10::Type::SingletonOrSharedTypePtr<c10::Type> >, bool, bool) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:35:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    35 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:36:26: warning: unused parameter 'fn_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    36 |       const std::string& fn_name,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:38:26: warning: unused parameter 'fn' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    38 |       functional_apply_t fn,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:40:32: warning: unused parameter 'packed_args_schema' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    40 |       std::vector<at::TypePtr> packed_args_schema,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:41:12: warning: unused parameter 'is_custom_function' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    41 |       bool is_custom_function = false,
+warning: spectrogram@0.1.0:       |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:42:12: warning: unused parameter 'is_traceable' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    42 |       bool is_traceable = true) const {
+warning: spectrogram@0.1.0:       |       ~~~~~^~~~~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual torch::autograd::variable_list torch::dynamo::autograd::PyCompilerInterface::call_function(PyObject*, const char*, const std::string&, const torch::autograd::variable_list&, const torch::autograd::ivalue_list&, const c10::IValue&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:49:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    49 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:50:19: warning: unused parameter 'method_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    50 |       const char* method_name,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:51:26: warning: unused parameter 'fn_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    51 |       const std::string& fn_name,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:52:28: warning: unused parameter 'inputs' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    52 |       const variable_list& inputs,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:53:26: warning: unused parameter 'packed_args' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    53 |       const ivalue_list& packed_args,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:54:26: warning: unused parameter 'output_metadata' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    54 |       const c10::IValue& output_metadata) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual torch::autograd::variable_list torch::dynamo::autograd::PyCompilerInterface::call_copy_slices_prologue(PyObject*, const torch::autograd::variable_list&, const at::TensorGeometry&, const at::TensorGeometry&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:58:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    58 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:59:28: warning: unused parameter 'inputs' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       const variable_list& inputs,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:60:33: warning: unused parameter 'base' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    60 |       const at::TensorGeometry& base,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:61:33: warning: unused parameter 'view' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    61 |       const at::TensorGeometry& view) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual torch::autograd::variable_list torch::dynamo::autograd::PyCompilerInterface::call_copy_slices_epilogue(PyObject*, const std::vector<bool>&, const at::Tensor&, const torch::autograd::variable_list&, const at::Tensor&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:65:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    65 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:66:32: warning: unused parameter 'needs_input_grad' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    66 |       const std::vector<bool>& needs_input_grad,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:67:25: warning: unused parameter 'result' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    67 |       const at::Tensor& result,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~^~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:68:28: warning: unused parameter 'res' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    68 |       const variable_list& res,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~^~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:69:25: warning: unused parameter 'grad_slice' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    69 |       const at::Tensor& grad_slice) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual at::Tensor torch::dynamo::autograd::PyCompilerInterface::call_unpack(PyObject*, std::optional<long unsigned int>, size_t) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:73:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    73 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:74:29: warning: unused parameter 'hook_id' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    74 |       std::optional<size_t> hook_id,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:75:14: warning: unused parameter 'hook_input_id' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    75 |       size_t hook_input_id) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~^~~~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function 'virtual void torch::dynamo::autograd::PyCompilerInterface::call_accumulate_grad(PyObject*, const at::Tensor&, const at::Tensor&) const':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:79:17: warning: unused parameter 'py_compiler' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    79 |       PyObject* py_compiler,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~^~~~~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:80:25: warning: unused parameter 'variable' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    80 |       const at::Tensor& variable,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:81:25: warning: unused parameter 'grad' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    81 |       const at::Tensor& grad) const {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~^~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/ir/ir.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/function_impl.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/method.h:7,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/object.h:5,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/serialize/input-archive.h:5,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/serialize/archive.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data/samplers/serialize.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data/samplers.h:8,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data/datasets/chunk.h:6,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data/datasets.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/data.h:4,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/all.h:9:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/operator.h: In lambda function:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/operator.h:152:39: warning: unused parameter 'op' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   152 |             [](const JitOnlyOperator& op) {
+warning: spectrogram@0.1.0:       |                ~~~~~~~~~~~~~~~~~~~~~~~^~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/operator.h: In lambda function:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/operator.h:191:39: warning: unused parameter 'op' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   191 |             [](const JitOnlyOperator& op) {
+warning: spectrogram@0.1.0:       |                ~~~~~~~~~~~~~~~~~~~~~~~^~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/graph_executor.h:9,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/function_impl.h:5:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/interpreter.h: In constructor 'torch::jit::InterpreterContinuation::InterpreterContinuation(torch::jit::InterpreterState, torch::jit::Stack, int64_t, std::optional<at::ThreadLocalState>)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/runtime/interpreter.h:127:15: warning: unused parameter 'dist_autograd_context_id' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   127 |       int64_t dist_autograd_context_id = 0,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:13:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/compilation_unit.h: In member function 'void torch::jit::CompilationUnit::set_optimized(bool)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/compilation_unit.h:73:27: warning: unused parameter 'o' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    73 |   void set_optimized(bool o) {
+warning: spectrogram@0.1.0:       |                      ~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In member function 'void torch::jit::Module::set_optimized(bool)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:102:27: warning: unused parameter 'o' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   102 |   void set_optimized(bool o) {
+warning: spectrogram@0.1.0:       |                      ~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static torch::jit::detail::ModulePolicy::value_type torch::jit::detail::ModulePolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:585:46: warning: unused parameter 'cursors' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   585 |       const std::vector<detail::SlotCursor>& cursors,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static bool torch::jit::detail::ModulePolicy::valid(const c10::ClassTypePtr&, size_t, const c10::IValue&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:591:70: warning: unused parameter 'v' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   591 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                                                        ~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static torch::jit::detail::ParameterPolicy::value_type torch::jit::detail::ParameterPolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:602:46: warning: unused parameter 'cursors' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   602 |       const std::vector<detail::SlotCursor>& cursors,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static torch::jit::detail::BufferPolicy::value_type torch::jit::detail::BufferPolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:615:46: warning: unused parameter 'cursors' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   615 |       const std::vector<detail::SlotCursor>& cursors,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static bool torch::jit::detail::BufferPolicy::valid(const c10::ClassTypePtr&, size_t, const c10::IValue&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:619:70: warning: unused parameter 'v' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   619 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                                                        ~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static torch::jit::detail::AttributePolicy::value_type torch::jit::detail::AttributePolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:629:46: warning: unused parameter 'cursors' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   629 |       const std::vector<detail::SlotCursor>& cursors,
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h: In static member function 'static bool torch::jit::detail::AttributePolicy::valid(const c10::ClassTypePtr&, size_t, const c10::IValue&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:633:41: warning: unused parameter 'typ' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   633 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                     ~~~~~~~~~~~~~~~~~~~~^~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:633:53: warning: unused parameter 'i' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   633 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                                              ~~~~~~~^
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/jit/api/module.h:633:70: warning: unused parameter 'v' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   633 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+warning: spectrogram@0.1.0:       |                                                        ~~~~~~~~~~~~~~^
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/cloneable.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn.h:3,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/all.h:15:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/module.h: In member function 'virtual std::vector<torch::nn::AnyValue> torch::nn::Module::_forward_populate_default_args(std::vector<torch::nn::AnyValue>&&)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/module.h:541:31: warning: unused parameter 'arguments' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   541 |       std::vector<AnyValue>&& arguments) {
+warning: spectrogram@0.1.0:       |       ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/all.h:10:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::L1LossOptions::L1LossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:20:50: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    20 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(L1LossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::L1LossOptions::L1LossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:20:50: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    20 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(L1LossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::L1LossOptions::L1LossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:20:50: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    20 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(L1LossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:59:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:97:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG4'
+warning: spectrogram@0.1.0:    97 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kBatchMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:59:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:98:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG4'
+warning: spectrogram@0.1.0:    98 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:59:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:99:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG4'
+warning: spectrogram@0.1.0:    99 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:59:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    59 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:100:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG4'
+warning: spectrogram@0.1.0:   100 |   OPTIONS_NAME(torch::enumtype::TYPE4 ARG_NAME) : ARG_NAME##_(torch::TYPE4) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MSELossOptions::MSELossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:100:51: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   100 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(MSELossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MSELossOptions::MSELossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:100:51: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   100 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(MSELossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MSELossOptions::MSELossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:100:51: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   100 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(MSELossOptions, reduction, kNone, kMean, kSum)
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MultiLabelMarginLossOptions::MultiLabelMarginLossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:284:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   284 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MultiLabelMarginLossOptions::MultiLabelMarginLossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:284:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   284 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::MultiLabelMarginLossOptions::MultiLabelMarginLossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:284:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   284 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SoftMarginLossOptions::SoftMarginLossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:325:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   325 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SoftMarginLossOptions::SoftMarginLossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:325:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   325 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SoftMarginLossOptions::SoftMarginLossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:325:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   325 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SmoothL1LossOptions::SmoothL1LossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:537:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   537 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SmoothL1LossOptions::SmoothL1LossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:537:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   537 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::SmoothL1LossOptions::SmoothL1LossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:537:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   537 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::HuberLossOptions::HuberLossOptions(torch::enumtype::kNone)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:581:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   581 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:90:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    90 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::HuberLossOptions::HuberLossOptions(torch::enumtype::kMean)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:581:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   581 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    91 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor 'torch::nn::HuberLossOptions::HuberLossOptions(torch::enumtype::kSum)':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:581:7: warning: unused parameter 'reduction' [-Wunused-parameter]
+warning: spectrogram@0.1.0:   581 |       reduction,
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro 'TORCH_OPTIONS_CTOR_VARIANT_ARG3'
+warning: spectrogram@0.1.0:    92 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+warning: spectrogram@0.1.0:       |                                       ^~~~~~~~
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/features.h: In member function 'std::unique_ptr<Features> Features::pad(size_t) const':
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/features.h:38:65: warning: narrowing conversion of '(size_t)padding' from 'size_t' {aka 'long unsigned int'} to 'long int' [-Wnarrowing]
+warning: spectrogram@0.1.0:    38 |                 torch::nn::functional::PadFuncOptions({0, 0, 0, padding}).mode(torch::kConstant).value(-1.5));
+warning: spectrogram@0.1.0:       |                                                                 ^~~~~~~
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/features.h:38:65: warning: narrowing conversion of 'padding' from 'const size_t' {aka 'const long unsigned int'} to 'long int' [-Wnarrowing]
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/spectrogram.h: In member function 'std::unique_ptr<Features> LogMelSpectrogram::empty() const':
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/spectrogram.h:52:50: warning: narrowing conversion of '((const LogMelSpectrogram*)this)->LogMelSpectrogram::n_mels()' from 'size_t' {aka 'long unsigned int'} to 'long int' [-Wnarrowing]
+warning: spectrogram@0.1.0:    52 |             auto tensor = torch::empty({0, n_mels()}, torch::TensorOptions().dtype(torch::kFloat16).device(filters_.device()));
+warning: spectrogram@0.1.0:       |                                            ~~~~~~^~
+warning: spectrogram@0.1.0: /home/coder/melspectrum-rs/target/debug/build/spectrogram-497cac5143377f12/out/cxxbridge/crate/spectrogram/src/sys/spectrogram.h:52:50: warning: narrowing conversion of '((const LogMelSpectrogram*)this)->LogMelSpectrogram::n_mels()' from 'size_t' {aka 'long unsigned int'} to 'long int' [-Wnarrowing]
+warning: spectrogram@0.1.0: src/sys/spectrogram.cpp: In member function 'at::Tensor LogMelSpectrogram::extract(std::span<const float>, size_t) const':
+warning: spectrogram@0.1.0: src/sys/spectrogram.cpp:52:55: warning: narrowing conversion of '(size_t)padding' from 'size_t' {aka 'long unsigned int'} to 'long int' [-Wnarrowing]
+warning: spectrogram@0.1.0:    52 |             torch::nn::functional::PadFuncOptions({0, padding})
+warning: spectrogram@0.1.0:       |                                                       ^~~~~~~
+warning: spectrogram@0.1.0: src/sys/spectrogram.cpp:52:55: warning: narrowing conversion of 'padding' from 'const size_t' {aka 'const long unsigned int'} to 'long int' [-Wnarrowing]
+warning: spectrogram@0.1.0: In file included from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional.h:6,
+warning: spectrogram@0.1.0:                  from /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn.h:4:
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h: In instantiation of 'at::Tensor torch::nn::functional::detail::_dropoutNd_helper(at::Tensor, double, bool, bool, const char*) [with long int unbatched_dim = 3; long int batched_dim = 4]':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:89:33:   required from here
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:55:17: warning: unused parameter 'fn_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0:    55 |     const char* fn_name) {
+warning: spectrogram@0.1.0:       |     ~~~~~~~~~~~~^~~~~~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h: In instantiation of 'at::Tensor torch::nn::functional::detail::_dropoutNd_helper(at::Tensor, double, bool, bool, const char*) [with long int unbatched_dim = 4; long int batched_dim = 5]':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:121:33:   required from here
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:55:17: warning: unused parameter 'fn_name' [-Wunused-parameter]
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In instantiation of 'static std::vector<T> torch::dynamo::autograd::IValuePacker<std::vector<T> >::unpack(const c10::IValue&) [with T = std::__cxx11::basic_string<char>]':
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:1512:35:   required from 'T torch::dynamo::autograd::PackedArgs::unpack() [with T = std::vector<std::__cxx11::basic_string<char> >]'
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:1530:49:   required from here
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:1383:28: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+warning: spectrogram@0.1.0:  1383 |     for (const at::IValue& elt : lst) {
+warning: spectrogram@0.1.0:       |                            ^~~
+warning: spectrogram@0.1.0: /usr/local/lib/python3.12/dist-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:1383:5: note: the temporary was destroyed at the end of the full expression '__for_begin .c10::impl::ListIterator<c10::IValue, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator*().c10::impl::ListElementReference<c10::IValue, __gnu_cxx::__normal_iterator<c10::IValue*, std::vector<c10::IValue> > >::operator std::conditional_t<true, const c10::IValue&, c10::IValue>()'
+warning: spectrogram@0.1.0:  1383 |     for (const at::IValue& elt : lst) {
+warning: spectrogram@0.1.0:       |     ^~~
+   Compiling spectrogram v0.1.0 (/home/coder/melspectrum-rs)
+warning: unused import: `anyhow`
+ --> examples/extract.rs:2:14
+  |
+2 | use anyhow::{anyhow, Result};
+  |              ^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: unused variable: `features`
+  --> examples/extract.rs:14:9
+   |
+14 |     let features = spectrogram.extract(&[1.0; 16000 * 30], 0)?;
+   |         ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_features`
+   |
+   = note: `#[warn(unused_variables)]` on by default
+
+warning: `spectrogram` (example "extract" test) generated 2 warnings (run `cargo fix --example "extract" --tests` to apply 1 suggestion)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.85s
+     Running unittests examples/extract.rs (target/debug/examples/extract-22f9dca6b79701e1)
