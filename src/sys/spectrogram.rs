@@ -100,7 +100,7 @@ impl LogMelSpectrogram {
             .extract(samples, padding)
             .map_err(|e| anyhow!("failed to extract log mel spectrogram: {}", e))?;
 
-        Ok(ptr.into())      
+        Ok(ptr.into())
     }
 
     pub fn extract_multi(&self, first: &[f32], second: &[f32], padding: usize) -> Result<Features> {
@@ -122,7 +122,7 @@ unsafe impl Sync for LogMelSpectrogram {}
 
 #[cfg(test)]
 mod tests {
-    use super::{LogMelSpectrogram, DeviceType};
+    use super::{DeviceType, LogMelSpectrogram};
 
     #[test]
     fn test_open() {
@@ -132,7 +132,8 @@ mod tests {
         let hop_length = 160;
         let device = DeviceType::Cpu;
 
-        let spectrogram = LogMelSpectrogram::open(mel_filter_path, n_mels, n_fft, hop_length, device);
+        let spectrogram =
+            LogMelSpectrogram::open(mel_filter_path, n_mels, n_fft, hop_length, device);
         assert!(spectrogram.is_ok());
 
         let spectrogram = spectrogram.unwrap();
